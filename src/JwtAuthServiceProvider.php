@@ -2,9 +2,9 @@
 
 namespace Firdavsi\JwtAuth;
 
+use Firdavsi\JwtAuth\Commands\JwtAuthCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Firdavsi\JwtAuth\Commands\JwtAuthCommand;
 
 class JwtAuthServiceProvider extends PackageServiceProvider
 {

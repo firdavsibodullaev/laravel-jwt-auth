@@ -2,9 +2,9 @@
 
 namespace Firdavsi\JwtAuth\Tests;
 
+use Firdavsi\JwtAuth\JwtAuthServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Firdavsi\JwtAuth\JwtAuthServiceProvider;
 
 class TestCase extends Orchestra
 {
